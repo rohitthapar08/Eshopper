@@ -16,7 +16,7 @@
 				
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Features Items</h2>
+						<h2 class="title text-center">Featured Items</h2>
 
 						<?php
 						$sql="select p_id,p_name,p_mrp,round((p_mrp)-(p_mrp*p_dis/100)) as discount,p_imgpath from product order by p_id desc";

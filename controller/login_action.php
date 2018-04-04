@@ -6,7 +6,7 @@
 	// print_r($_POST);
 	// echo"</pre>";
 
-//email validation
+    //email validation
 	$reg_email="/^([a-zA-z0-9][a-zA-z0-9_\.]+[a-zA-z0-9])@([a-zA-z0-9][a-zA-z0-9\-]+[a-zA-z0-9])\.([a-zA-z]{2,})(\.[a-zA-z]{2,})?$/";
 
 			$res_email=preg_match($reg_email, $_POST['log_email']);

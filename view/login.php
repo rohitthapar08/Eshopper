@@ -21,7 +21,7 @@ endif;
 
 							<button type="button" class ="btn btn-default login_btn">Login</button>
 						</form>
-						<div class="login_err">err</div>
+						<div class="login_err"></div>
 					</div><!--/login form-->
 				</div>
 				<div class="col-sm-1">
@@ -40,7 +40,7 @@ endif;
 
 							<button type="button" class="btn btn-default register_btn">Signup</button>
 						</form>
-						<div class="err_register">test</div>
+						<div class="err_register"></div>
 					</div><!--/sign up form-->
 				</div>
 			</div>
